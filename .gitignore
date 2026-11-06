@@ -1,0 +1,23 @@
+# 게임 원본·산출물 (배포하지 않음)
+*.bin
+*.cue
+*.gdi
+*.xdelta
+work/orig/
+work/build/
+work/tr/in/
+work/cand.json
+work/*_units.json
+work/emu/
+
+# 글꼴·외부 실행 파일·이미지
+*.ttf
+*.otf
+*.exe
+*.dll
+*.png
+work/fonts/
+
+# 파이썬
+__pycache__/
+*.pyc
