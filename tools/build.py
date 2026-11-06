@@ -233,7 +233,7 @@ def ref_list(o):
         else: log('  skip ref %x -> %x (op %02x)' % (r, o, exe0[r-1]))
     return good
 
-NO1 = {0x13a8d9}   # default hero name: name-entry expects 2-byte SJIS
+NO1 = {0x13a8d9, 0x13a8e4, 0x13a8ed, 0x13a8f6, 0x13a8ff}   # default hero / magic sword, shield, armour, helm names: name-entry fields expect 2-byte SJIS
 encoded = {o: enc(t, o not in NO1 and not (0xd0000 <= o < 0xe9000)) for o, t in trans.items()}
 inplace = {}; move = {}
 for o, b in encoded.items():

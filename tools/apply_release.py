@@ -1,5 +1,5 @@
 """릴리즈 xdelta 를 해시 검사 후 적용.
-사용: python tools/apply_release.py --xdelta xdelta3.exe --source "Record of Lodoss War - The Advent of Cardice (Japan) (Track 5).bin" --patch LodossWar_Cardice_DC_KO_v1.1.xdelta --output "Record of Lodoss War - The Advent of Cardice (Japan) (Track 5) [KR].bin"
+사용: python tools/apply_release.py --xdelta xdelta3.exe --source "Record of Lodoss War - The Advent of Cardice (Japan) (Track 5).bin" --patch LodossWar_Cardice_DC_KO_v1.2.xdelta --output "Record of Lodoss War - The Advent of Cardice (Japan) (Track 5) [KR].bin"
 트랙 1~4는 바뀌지 않으므로 원본 트랙 1~4를 그대로 가리키는 CUE를 만든다.
 """
 import argparse, hashlib, json, os, subprocess, sys

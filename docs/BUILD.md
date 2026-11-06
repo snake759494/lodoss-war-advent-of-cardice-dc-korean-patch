@@ -31,7 +31,7 @@ python tools/build.py --disc     # → "Record of Lodoss War - The Advent of Car
 ## 배포 파일
 
 ```powershell
-xdelta3 -e -0 -S none -A -s "Record of Lodoss War - The Advent of Cardice (Japan) (Track 5).bin" "Record of Lodoss War - The Advent of Cardice (Japan) (Track 5) [KR].bin" LodossWar_Cardice_DC_KO_v1.1.xdelta
+xdelta3 -e -0 -S none -A -s "Record of Lodoss War - The Advent of Cardice (Japan) (Track 5).bin" "Record of Lodoss War - The Advent of Cardice (Japan) (Track 5) [KR].bin" LodossWar_Cardice_DC_KO_v1.2.xdelta
 ```
 
 ## 번역 수정
