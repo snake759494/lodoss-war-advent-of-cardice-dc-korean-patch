@@ -92,6 +92,8 @@ T = [x for x in cand['T'] if 0xd0000 <= x['off'] < 0xe9000 or 0x129000 <= x['off
 for x in T:
     j = display(x['off'])
     if j in tmap: trans.setdefault(x['off'], tmap[j])
+# float data misdetected as text (0.1f x3, used when equipping weapons) - never touch
+for _o in (0xd8b80,): trans.pop(_o, None)
 for _r in filter(None, os.environ.get('SKIP', '').split(';')):
     _a, _b = (int(v, 16) for v in _r.split('-'))
     for _o in [o for o in trans if _a <= o < _b]: del trans[_o]

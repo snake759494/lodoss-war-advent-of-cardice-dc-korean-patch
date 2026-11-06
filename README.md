@@ -1,10 +1,10 @@
 # 로도스도전기 사신강림 드림캐스트 한글패치
 
-드림캐스트 일본판 **ロードス島戦記 -邪神降臨- (T-27903M V1.001)**용 비공식 한국어 패치입니다. **대사·나레이션·선택지 1,589개(5,150줄) 전체**와 **아이템·마법·메뉴·시스템 메시지 등 실행파일 문자열 1,172종**, **사전(총람) 380항목**을 한국어로 바꿨습니다. **타이틀 메뉴·옵션 화면·상태/장비 약자·마법 이름·고대 단어 창·이름 입력·저장/로드·지역 이름 79종·게임오버·로딩 화면** 같은 그림 글자도 한글로 다시 그렸습니다. 현재 배포판은 **v1.0 (2026-11-06)**입니다.
+드림캐스트 일본판 **ロードス島戦記 -邪神降臨- (T-27903M V1.001)**용 비공식 한국어 패치입니다. **대사·나레이션·선택지 1,589개(5,150줄) 전체**와 **아이템·마법·메뉴·시스템 메시지 등 실행파일 문자열 1,172종**, **사전(총람) 380항목**을 한국어로 바꿨습니다. **타이틀 메뉴·옵션 화면·상태/장비 약자·마법 이름·고대 단어 창·이름 입력·저장/로드·지역 이름 79종·게임오버·로딩 화면** 같은 그림 글자도 한글로 다시 그렸습니다. 현재 배포판은 **v1.1 (2026-11-07)**입니다.
 
 [패치 다운로드](https://github.com/snake759494/lodoss-war-advent-of-cardice-dc-korean-patch/releases/latest) · [기술 설명](docs/TECHNICAL.md) · [재빌드](docs/BUILD.md) · [변경 기록](CHANGELOG.md) · [권리 안내](RIGHTS.md)
 
-릴리즈 첨부 파일은 한글패치 **LodossWar_Cardice_DC_KO_v1.0.xdelta**뿐입니다. 저장소에는 제작 소스와 한국어 번역만 공개합니다. 원본·완성 디스크 이미지, 추출한 게임 파일, 일본어 원문, 글꼴 파일, 외부 실행 파일은 포함하지 않습니다. GitHub가 자동으로 만드는 Source code ZIP/TAR는 저장소 소스를 압축한 것이며 게임 파일이 아닙니다.
+릴리즈 첨부 파일은 한글패치 **LodossWar_Cardice_DC_KO_v1.1.xdelta**뿐입니다. 저장소에는 제작 소스와 한국어 번역만 공개합니다. 원본·완성 디스크 이미지, 추출한 게임 파일, 일본어 원문, 글꼴 파일, 외부 실행 파일은 포함하지 않습니다. GitHub가 자동으로 만드는 Source code ZIP/TAR는 저장소 소스를 압축한 것이며 게임 파일이 아닙니다.
 
 ## 게임 소개 및 대상 버전
 
@@ -23,11 +23,11 @@
 | 원본 트랙 5 BIN SHA-1 | `0e47ea419a791bcd87e7b648eb177b71048f8570` |
 | 원본 트랙 5 BIN SHA-256 | `cc135e51e100b9ab748878fe7464093fc5e635a0bef577e3abe1aed27b750144` |
 | 원본 트랙 3 BIN MD5 (변경 없음) | `7840754b56d7bf940c93012c05b99e62` |
-| xdelta 파일 크기 | 1,905,842 바이트 |
-| xdelta SHA-256 | `3d7b38ca10bf959167c1d4bfa087007440ea26a7bcb8c35f4dc5ef2b90c1435b` |
+| xdelta 파일 크기 | 1,905,516 바이트 |
+| xdelta SHA-256 | `3f3b891e54e2edabcb3157fac7f1a1bfd27a04d6fe231002177c2e8a19108ecf` |
 | 적용 결과 트랙 5 BIN 크기 | 727,979,280 바이트 (원본과 같음) |
 | 적용 결과 트랙 5 BIN SHA-1 | `222196e07aa8ba911c38659c80eb592c2d5923a9` |
-| 적용 결과 트랙 5 BIN SHA-256 | `c88329f515e75d28ed37cf7347baa71f3cd0937d282e17d1e1011413e6d04eed` |
+| 적용 결과 트랙 5 BIN SHA-256 | `cd77453bfa0bddc16b78cb9a7159e886d7ff33a57cbc4fe7536b0d2e9fb2654f` |
 
 원본 게임 파일은 사용자가 직접 준비해야 합니다.
 
@@ -43,7 +43,7 @@ Get-FileHash -Algorithm MD5 -LiteralPath '.\Record of Lodoss War - The Advent of
 
 ### xdelta UI 사용
 
-1. 릴리즈에서 `LodossWar_Cardice_DC_KO_v1.0.xdelta`를 받습니다.
+1. 릴리즈에서 `LodossWar_Cardice_DC_KO_v1.1.xdelta`를 받습니다.
 2. xdelta3 패치를 지원하는 도구에서 **Apply Patch** 기능을 엽니다.
 3. **Patch**에는 xdelta 파일을, **Source File**에는 해시가 일치하는 원본 **트랙 5** `.bin`을 선택합니다.
 4. **Output File**에는 `Record of Lodoss War - The Advent of Cardice (Japan) (Track 5) [KR].bin`을 지정합니다.
@@ -77,13 +77,13 @@ xdelta는 호환성을 위해 압축·2차 압축·파일 경로 헤더 없이 �
 ### 명령줄 사용
 
 ```powershell
-.\xdelta3.exe -d -s '.\Record of Lodoss War - The Advent of Cardice (Japan) (Track 5).bin' '.\LodossWar_Cardice_DC_KO_v1.0.xdelta' '.\Record of Lodoss War - The Advent of Cardice (Japan) (Track 5) [KR].bin'
+.\xdelta3.exe -d -s '.\Record of Lodoss War - The Advent of Cardice (Japan) (Track 5).bin' '.\LodossWar_Cardice_DC_KO_v1.1.xdelta' '.\Record of Lodoss War - The Advent of Cardice (Japan) (Track 5) [KR].bin'
 ```
 
 해시를 자동으로 검사하고 CUE까지 만들어 주는 도구도 있습니다(CUE의 트랙 1~4는 원본을 그대로 가리킵니다). Python 3과 xdelta3가 필요하며, 같은 이름의 출력 파일이 이미 있으면 덮어쓰지 않습니다.
 
 ```powershell
-python tools/apply_release.py --xdelta '.\xdelta3.exe' --source '.\Record of Lodoss War - The Advent of Cardice (Japan) (Track 5).bin' --patch '.\LodossWar_Cardice_DC_KO_v1.0.xdelta' --output '.\Record of Lodoss War - The Advent of Cardice (Japan) (Track 5) [KR].bin'
+python tools/apply_release.py --xdelta '.\xdelta3.exe' --source '.\Record of Lodoss War - The Advent of Cardice (Japan) (Track 5).bin' --patch '.\LodossWar_Cardice_DC_KO_v1.1.xdelta' --output '.\Record of Lodoss War - The Advent of Cardice (Japan) (Track 5) [KR].bin'
 ```
 
 ### 실행

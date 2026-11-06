@@ -1,11 +1,11 @@
 {
- "version": "v1.0",
- "date": "2026-11-06",
+ "version": "v1.1",
+ "date": "2026-11-07",
  "game": "Record of Lodoss War: The Advent of Cardice (Japan) / T-27903M V1.001 / Dreamcast (GD-ROM, Redump BIN/CUE 5트랙)",
- "asset": "LodossWar_Cardice_DC_KO_v1.0.xdelta",
+ "asset": "LodossWar_Cardice_DC_KO_v1.1.xdelta",
  "asset_target": "Track 5 BIN only (Tracks 1-4 unchanged)",
- "asset_size": 1905842,
- "asset_sha256": "3d7b38ca10bf959167c1d4bfa087007440ea26a7bcb8c35f4dc5ef2b90c1435b",
+ "asset_size": 1905516,
+ "asset_sha256": "3f3b891e54e2edabcb3157fac7f1a1bfd27a04d6fe231002177c2e8a19108ecf",
  "xdelta_options": "xdelta3 -e -0 -S none -A (no compression, no secondary compression, no application header)",
  "source_bin_size": 727979280,
  "source_bin_md5": "43882ab1e6d5c22388bc34f15ff315de",
@@ -20,7 +20,7 @@
  "track4_bin_size": 15024576,
  "track4_bin_md5": "08e9cffe8e6b27b3e6f171c621f89b17",
  "output_bin_size": 727979280,
- "output_bin_md5": "fb314fec1938d36652169324a0bdfe05",
- "output_bin_sha1": "222196e07aa8ba911c38659c80eb592c2d5923a9",
- "output_bin_sha256": "c88329f515e75d28ed37cf7347baa71f3cd0937d282e17d1e1011413e6d04eed"
-}
+ "output_bin_md5": "46f0273b5a57ea0e1df11773d77da854",
+ "output_bin_sha1": "1539dd53515b0b9f71359b1bfd213807a76b2492",
+ "output_bin_sha256": "cd77453bfa0bddc16b78cb9a7159e886d7ff33a57cbc4fe7536b0d2e9fb2654f"
+}
